@@ -1,0 +1,80 @@
+.floating-card {
+  position: fixed;
+  top: 18%;
+  right: 5%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-data{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bigger-circular-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bigger-circular-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logout-user-list{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.logout-user{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.small-circular-img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.small-circular-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+  

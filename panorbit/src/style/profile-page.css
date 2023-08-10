@@ -1,0 +1,10 @@
+.profile-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.comming-soon{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
